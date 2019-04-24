@@ -58,6 +58,7 @@ And to apply in several inputs automatically, just use classes intead id's and l
 
 .. code:: javascript
 
-   for (let date of document.getElementsByClassName('date')) {
+   const dates = document.getElementsByClassName('date');
+   for (let date of dates) {
       mask(date, '####-##-##');
    }
